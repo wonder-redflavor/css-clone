@@ -1,0 +1,26 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: 110px 45% 35%;
+  gap: 15px;
+  grid-template-areas:
+    "header header header"
+    "bad bad bad-next"
+    "religion religion religion";
+}
+
+header {
+  background: black;
+  grid-area: header;
+  color: #dde1d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 15px;
+}
+
+.bad {
+  grid-area: bad;
+  display: flex;
+  align-items: flex-end;
+}
