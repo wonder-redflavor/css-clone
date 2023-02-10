@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 8vw;
+  grid-auto-rows: 500px;
+}
+
+header {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 600;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 15px;
+}
+.img {
+  background-size: cover;
+}
+
+div > :last-child {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+div:nth-child(2) {
+  background-color: rgb(191, 189, 167);
+}
+
+div:nth-child(3) {
+  background-image: url("01.jpeg");
+}
+
+div:nth-child(4) {
+  background-color: rgb(254, 72, 20);
+}
+
+div:nth-child(5) {
+  background-image: url("02.jpeg");
+}
+
+div:nth-child(6) {
+  background-color: rgb(132, 126, 150);
+}
+
+div:nth-child(7) {
+  background-color: rgb(208, 255, 113);
+}
+
+div:nth-child(8) {
+  background-color: rgb(153, 52, 51);
+}
+
+div:nth-child(9) {
+  background-color: rgb(58, 170, 250);
+}
+
+div:nth-child(10) {
+  background-image: url("03.jpeg");
+}
+
+div:nth-child(11) {
+  background-color: rgb(65, 144, 122);
+}
+
+div:nth-child(12) {
+  background-image: url("04.jpeg");
+}
+
+div:nth-child(13) {
+  background-color: rgb(227, 196, 229);
+}
